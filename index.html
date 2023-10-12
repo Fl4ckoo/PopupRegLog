@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    
+    <div class="center">
+        <button id="show-login" type="button">Log In</button>
+        <button id="show-register" type="button">Register</button>
+    </div>
+
+
+    
+    <!--Log In Pop up-->
+    <div class="popup">
+        <div class="closeBtn">&times;</div>
+        <div class="form">
+            <h2>Log In</h2>
+         <div class="form-element">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="Enter your email">
+         </div>
+         <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+         </div>
+         <div class="form-element">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember Me</label>
+         </div>
+         <div class="form-element">
+            <button>Log In</button>
+         </div>
+         <div class="form-element">
+            <a href="#forgot-password">Forgot Password</a>
+         </div>
+        </div> 
+    </div>
+
+    <!--Register Pop up-->
+    <div class="registerPopUp">
+      <div class="closeBtn2">&times;</div>
+         <div class="form">
+            <h2>Register new account</h2>
+            <div class="form-element">
+               <label for="fname">Name</label>
+               <input type="text" id="fname" placeholder="Enter your Name">
+            </div>
+            <div class="form-element">
+               <label for="lname">Last Name</label>
+               <input type="text" id="lname" placeholder="Enter your Last Name">
+            </div>
+            <div class="form-element">
+               <label for="email">Email</label>
+               <input type="email" id="regEmail" placeholder="Enter your Email">
+            </div>
+            <div class="form-element">
+               <label for="regPassword">Password</label>
+               <input type="password" id="regPassword" placeholder="Enter your Password">
+            </div>
+            <div class="form-element">
+               <label for="regRePassword">Repeat Password</label>
+               <input type="password" id="regRePassword" placeholder="Enter your Password">
+            </div>
+            <div class="form-element">
+               <button>Register</button>
+            </div>
+         </div>
+    </div>
+
+
+    
+
+    <!--Scripts-->
+    <script src="./scripts/popUpScript.js"></script>
+</body>
+</html>
